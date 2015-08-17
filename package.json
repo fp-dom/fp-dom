@@ -1,0 +1,59 @@
+{
+  "name": "fp-dom",
+  "version": "0.0.1",
+  "description": "A collection of function to favor functional programming in a DOM context",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build-module": "babel build.es6 > build.js && node build.js > index.es6 && babel index.es6 > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guumaster/fp-dom.git"
+  },
+  "keywords": [
+    "fp",
+    "dom",
+    "functional",
+    "fp-dom"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guumaster/fp-dom/issues"
+  },
+  "homepage": "https://github.com/guumaster/fp-dom#readme",
+  "dependencies": {
+    "fd-animate": "^0.2.0",
+    "fd-append": "^1.0.0",
+    "fd-class": "^1.0.0",
+    "fd-contains": "^1.0.0",
+    "fd-elem": "^1.0.0",
+    "fd-insert-after": "^1.0.0",
+    "fd-insert-before": "^1.0.1",
+    "fd-interval": "^1.0.0",
+    "fd-isdom": "^1.1.1",
+    "fd-isvdom": "^1.0.0",
+    "fd-listen": "^1.0.1",
+    "fd-prepend": "^1.0.0",
+    "fd-replace": "^1.0.0",
+    "fd-select": "^1.3.3",
+    "fd-setattr": "^1.0.0",
+    "fd-timeout": "^1.0.0",
+    "fd-velem": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "fj-apply": "^1.0.0",
+    "fj-compose": "^1.1.0",
+    "fj-curry": "^1.0.0",
+    "fj-filter": "^1.0.0",
+    "fj-flatten": "^1.0.0",
+    "fj-fold": "^1.0.1",
+    "fj-map": "^1.0.1",
+    "fj-noop": "^1.0.0",
+    "fj-pluck": "^1.1.0",
+    "fj-some": "^2.0.0",
+    "is-object": "^1.0.1"
+  }
+}
