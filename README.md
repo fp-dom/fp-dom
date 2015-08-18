@@ -44,7 +44,7 @@ onClickSetClicked(select('.link'));
 
 ### Requires in ES5
 
-You can still use ES5 modules to `require` some of all modules.
+You can still use ES5 modules to `require` some or all modules.
 
 ```
 var fpdom = require('fp-dom');
