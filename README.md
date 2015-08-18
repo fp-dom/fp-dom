@@ -5,34 +5,55 @@ A container module to group lots of simple functional tools. This package only r
 
 ## Usage
 
+All packages are re-exported without the `fd-` prefix. Some packages, `fd-select`, `fd-class` exports more than one function and are also available in the root level of `fp-dom`.
+
 ### Import all package at once
 
-```
+```javascript
 import * as fpdom from 'fp-dom';
 
 // use any module: 
 
-let foo = fpdom.select(document)('.foo');
+let appendtoBody = fpdom.append(document.body),
+  h1 = fpdom.elem('h1','meow'),
+  h2 = fpdom.elem('h2', 'bow');
 
-let bar = fpdom.selectOne(document)('.bar');
+appendtoBody(h1);
+fpdom.replace(document.body,h2,h1);
+
+
+let foo = fpdom.select(document)('.foo');  // array of .foo elements
+let bar = fpdom.selectOne(document)('.bar'); // first .bar element
 
 ```
 
 ### Import some packages
 
-```
+```javascript
 import { animate, append, listen, select, velem } from 'fp-dom';
 
 // use them directly
 
-var onClick = listen('click');
-var onClickSetClicked = onClick((event) => {
+let onClick = listen('click');
+let onClickSetClicked = onClick((event) => {
   event.target.innerHTML = 'clicked';
 });
 
 onClickSetClicked(select('.link'));
+```
+
+### Requires in ES5
+
+You can still use ES5 modules to `require` some of all modules.
 
 ```
+var fpdom = require('fp-dom');
+
+var selectOne = require('fp-dom').selectOne;
+var replace = require('fp-dom').replace;
+
+```
+
 
 ## Included modules
 
