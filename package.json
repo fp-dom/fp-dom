@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "build-module": "babel build.es6 > build.js && node build.js > index.es6 && babel index.es6 > index.js"
+    "build-script": "babel build.es6 > build.js",
+    "build-module": "node build.js > index.es6 && babel index.es6 --source-maps > index.js"
   },
   "repository": {
     "type": "git",
