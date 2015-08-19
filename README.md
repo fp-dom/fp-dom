@@ -78,3 +78,6 @@ var replace = require('fp-dom').replace;
 * [fd-timeout](https://github.com/fp-dom/fd-timeout)
 * [fd-velem](https://github.com/fp-dom/fd-velem)
 
+## License
+
+MIT © [stoeffel](http://schtoeffel.ch) [hemanth](http://www.h3manth.com/)
