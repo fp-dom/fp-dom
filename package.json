@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "description": "A collection of function to favor functional programming in a DOM context",
   "main": "index.js",
+  "files": [
+    "scripts/*",
+    "module/*"
+  ],
   "scripts": {
     "test": "echo 'no test for container package'",
     "compile": "babel-node ./scripts/build.js > ./module/index.js && cd module; babel --loose=all ./*.js --out-dir ../"
