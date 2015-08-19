@@ -1,6 +1,6 @@
 {
   "name": "fp-dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of function to favor functional programming in a DOM context",
   "main": "index.js",
   "scripts": {
