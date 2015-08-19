@@ -4,9 +4,8 @@
   "description": "A collection of function to favor functional programming in a DOM context",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "build-script": "babel build.es6 > build.js",
-    "build-module": "node build.js > index.es6 && babel index.es6 --source-maps > index.js"
+    "test": "echo 'no test for container package'",
+    "compile": "babel-node ./scripts/build.js > ./module/index.js && cd module; babel --loose=all ./*.js --out-dir ../"
   },
   "repository": {
     "type": "git",
@@ -20,11 +19,6 @@
   ],
   "contributors": [
     {
-      "name": "guumaster",
-      "email": "guuweb@gmail.com",
-      "url": "https://github.com/guumaster"
-    },
-    {
       "name": "hemanth.hm",
       "email": "hemanth.hm@gmail.com",
       "url": "http://www.h3manth.com"
@@ -33,6 +27,11 @@
       "name": "stoeffel",
       "email": "schtoeffel@gmail.com",
       "url": "http://www.schtoeffel.ch"
+    },
+    {
+      "name": "guumaster",
+      "email": "guuweb@gmail.com",
+      "url": "https://github.com/guumaster"
     }
   ],
   "license": "MIT",
