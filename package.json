@@ -59,17 +59,9 @@
     "fd-velem": "^1.0.0"
   },
   "devDependencies": {
+    "1-liners": "^0.3.5",
     "babel": "^5.8.21",
-    "fj-apply": "^1.0.0",
     "fj-compose": "^1.1.0",
-    "fj-curry": "^1.0.0",
-    "fj-filter": "^1.0.0",
-    "fj-flatten": "^1.0.0",
-    "fj-fold": "^1.0.1",
-    "fj-map": "^1.0.1",
-    "fj-noop": "^1.0.0",
-    "fj-pluck": "^1.1.0",
-    "fj-some": "^2.0.0",
     "is-object": "^1.0.1"
   }
 }
