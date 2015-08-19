@@ -1,7 +1,7 @@
 # FP-DOM
 
 [![npm version](https://badge.fury.io/js/fp-dom.svg)](http://badge.fury.io/js/fp-dom)
-[![Dependency Status](https://david-dm.org/guumaster/fp-dom.svg)](https://david-dm.org/guumaster/fp-dom)
+[![Dependency Status](https://david-dm.org/fp-dom/fp-dom.svg)](https://david-dm.org/fp-dom/fp-dom)
 
 A container module to group lots of simple functional tools. This package only re-export all of the `fp-dom` tools found [here](https://github.com/fp-dom).
 

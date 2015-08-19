@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guumaster/fp-dom.git"
+    "url": "git+https://github.com/fp-dom/fp-dom.git"
   },
   "keywords": [
     "fp",
@@ -18,7 +18,23 @@
     "functional",
     "fp-dom"
   ],
-  "author": "",
+  "contributors": [
+    {
+      "name": "guumaster",
+      "email": "guuweb@gmail.com",
+      "url": "https://github.com/guumaster"
+    },
+    {
+      "name": "hemanth.hm",
+      "email": "hemanth.hm@gmail.com",
+      "url": "http://www.h3manth.com"
+    },
+    {
+      "name": "stoeffel",
+      "email": "schtoeffel@gmail.com",
+      "url": "http://www.schtoeffel.ch"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/guumaster/fp-dom/issues"
