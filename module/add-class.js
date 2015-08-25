@@ -1,0 +1,1 @@
+export { addClass as default } from 'fd-class';

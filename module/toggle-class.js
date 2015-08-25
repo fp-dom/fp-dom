@@ -1,0 +1,1 @@
+export { toggleClass as default } from 'fd-class';

@@ -1,0 +1,1 @@
+export { select as default } from 'fd-select';

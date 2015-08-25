@@ -5,11 +5,13 @@
   "main": "index.js",
   "files": [
     "scripts/*",
-    "module/*"
+    "module/*",
+    "*js"
   ],
   "scripts": {
     "test": "echo 'no test for container package'",
-    "compile": "babel-node ./scripts/build.js > ./module/index.js && cd module; babel --loose=all ./*.js --out-dir ../"
+    "clean": "rimraf *js module/*js",
+    "compile": "npm run clean && babel-node ./scripts/build.js && cd module; babel --loose=all ./*.js --out-dir ../"
   },
   "repository": {
     "type": "git",
@@ -65,7 +67,7 @@
   "devDependencies": {
     "1-liners": "^0.3.5",
     "babel": "^5.8.21",
-    "fj-compose": "^1.1.0",
-    "is-object": "^1.0.1"
+    "is-object": "^1.0.1",
+    "rimraf": "^2.4.2"
   }
 }
